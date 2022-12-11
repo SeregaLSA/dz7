@@ -1,0 +1,63 @@
+.cubik {
+    width: 4px;
+    height: 10px;
+    background-color: white;
+    margin-left: 5px;
+    float: left;
+    animation-name: blink;
+    animation-timing-function: linear;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.cubik1 {
+    width: 4px;
+    height: 10px;
+    background-color: white;
+    margin-left: 5px;
+    float: left;
+    animation-name: blink1;
+    animation-timing-function: linear;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+    animation-delay: 200ms;
+    animation-direction: alternate;
+}
+.cubik2 {
+    width: 4px;
+    height: 10px;
+    background-color: white;
+    margin-left: 5px;
+    float: left;
+    animation-name: blink2;
+    animation-timing-function: linear;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+    animation-delay: 300ms;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 30px;
+    }
+}
+@keyframes blink1 {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 30px;
+    }
+}
+@keyframes blink2 {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 30px;
+    }
+}

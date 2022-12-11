@@ -1,0 +1,66 @@
+.circus {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    margin-left: 10px;
+    float: left;
+    border-radius: 50%;
+    animation-name: blink;
+    animation-timing-function: linear;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.circus1 {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    margin-left: 10px;
+    float: left;
+    border-radius: 50%;
+    animation-name: blink1;
+    animation-timing-function: linear;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-delay: 200ms;
+    animation-direction: alternate;
+}
+.circus2 {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    margin-left: 10px;
+    float: left;
+    border-radius: 50%;
+    animation-name: blink2;
+    animation-timing-function: linear;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-delay: 400ms;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes blink1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes blink2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

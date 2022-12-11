@@ -1,0 +1,64 @@
+.hz {
+    transform: rotate(180deg);
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.line {
+    width: 3px;
+    height: 15px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 60px;
+    float: left;
+}
+.stick1 {
+    animation-name: stick;
+    animation-timing-function: linear;
+    animation-duration: 320ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.stick2 {
+    animation-name: stick;
+    animation-timing-function: linear;
+    animation-duration: 320ms;
+    animation-delay: 80ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.stick3 {
+    animation-name: stick;
+    animation-timing-function: linear;
+    animation-duration: 320ms;
+    animation-delay: 160ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.stick4 {
+    animation-name: stick;
+    animation-timing-function: linear;
+    animation-duration: 320ms;
+    animation-delay: 240ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.stick5 {
+    animation-name: stick;
+    animation-timing-function: linear;
+    animation-duration: 320ms;
+    animation-delay: 320ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes stick {
+    0% {
+
+    }
+    100% {
+        height: 100px;
+    }
+}
